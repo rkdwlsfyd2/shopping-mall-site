@@ -1,0 +1,32 @@
+.btn-outline-success{
+  color:chocolate;
+  border-color:chocolate;
+}
+.btn-outline-success:hover{
+  background-color: chocolate;
+  color:white;
+  border-color: chocolate;
+}
+.letter-color{
+  color:white;
+}
+
+.footer-text{
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.7s ease 0s;
+}
+footer{
+  background:rgb(33, 33, 33);
+  color:white;
+}
+
+.first-line{
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+@media screen and (max-width:48rem){
+  .first-line{
+    text-align:center;
+  }
+}
